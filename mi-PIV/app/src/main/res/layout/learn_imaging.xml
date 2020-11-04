@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LearnImaging">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="60dp"
+        tools:ignore="MissingConstraints">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/learnImagingTextView0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#0F2439"
+                android:gravity="center"
+                android:text="Learn About Imaging"
+                android:textColor="#FFFFFF"
+                android:textSize="35sp" />
+
+            <TextView
+                android:id="@+id/learnImagingTextView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:ignore="MissingConstraints"
+                android:textStyle="bold"
+                android:layout_below="@id/learnImagingTextView0"/>
+
+            <TextView
+                android:id="@+id/learnImagingTextView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:ignore="MissingConstraints"
+                android:drawableBottom="@drawable/sensor_array"
+                android:layout_below="@id/learnImagingTextView1"/>
+
+            <TextView
+                android:id="@+id/learnImagingTextView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:ignore="MissingConstraints"
+                android:drawableBottom="@drawable/camera_basic"
+                android:layout_below="@id/learnImagingTextView2"/>
+
+            <TextView
+                android:id="@+id/learnImagingTextView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:ignore="MissingConstraints"
+                android:layout_below="@id/learnImagingTextView3"/>
+<!--bit depth begins-->
+            <com.zolad.zoominimageview.ZoomInImageView
+                android:id="@+id/learnImagingImageView3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/learnImagingTextView4"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/learnImagingTextView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:ignore="MissingConstraints"
+                android:layout_below="@id/learnImagingImageView3"/>
+
+            <ImageView
+                android:id="@+id/learnImagingImageView6"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/bitdepth256"
+                android:layout_below="@id/learnImagingTextView5"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/learnImagingTextView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:ignore="MissingConstraints"
+                android:layout_below="@id/learnImagingImageView6"/>
+
+
+            <ImageView
+                android:id="@+id/learnImagingImageView7"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/bitdepth8"
+                android:layout_below="@id/learnImagingTextView14"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/learnImagingTextView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:ignore="MissingConstraints"
+                android:layout_below="@id/learnImagingImageView7"/>
+
+
+            <ImageView
+                android:id="@+id/learnImagingImageView8"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/bitdepth4"
+                android:layout_below="@id/learnImagingTextView15"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/learnImagingTextView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:ignore="MissingConstraints"
+                android:layout_below="@id/learnImagingImageView8"/>
+
+
+            <ImageView
+                android:id="@+id/learnImagingImageView9"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/bitdepth2"
+                android:layout_below="@id/learnImagingTextView16"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/learnImagingTextView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:ignore="MissingConstraints"
+                android:layout_below="@id/learnImagingImageView9"/>
+<!--ISO starts-->
+            <ImageView
+                android:id="@+id/learnImagingImageView10"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/pixel"
+                android:layout_below="@id/learnImagingTextView6"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/learnImagingTextView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:ignore="MissingConstraints"
+                android:layout_below="@id/learnImagingImageView10"/>
+
+            <TextView
+                android:id="@+id/learnImagingTextView37"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:ignore="MissingConstraints"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/learnImagingTextView7"/>
+
+
+            <ImageView
+                android:id="@+id/learnImagingImageView11"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/iso200"
+                android:layout_below="@id/learnImagingTextView37"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/learnImagingTextView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:ignore="MissingConstraints"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/learnImagingImageView11"/>
+
+            <ImageView
+                android:id="@+id/learnImagingImageView12"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/iso400"
+                android:layout_below="@id/learnImagingTextView17"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/learnImagingTextView18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:ignore="MissingConstraints"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/learnImagingImageView12"/>
+
+
+            <ImageView
+                android:id="@+id/learnImagingImageView13"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/iso800"
+                android:layout_below="@id/learnImagingTextView18"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/learnImagingTextView19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:ignore="MissingConstraints"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/learnImagingImageView13"/>
+
+
+            <ImageView
+                android:id="@+id/learnImagingImageView14"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/iso1200"
+                android:layout_below="@id/learnImagingTextView19"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/learnImagingTextView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:ignore="MissingConstraints"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:layout_below="@id/learnImagingImageView14"/>
+
+            <ImageView
+                android:id="@+id/learnImagingImageView15"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/iso1600"
+                android:layout_below="@id/learnImagingTextView20"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/learnImagingTextView21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:ignore="MissingConstraints"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:layout_below="@id/learnImagingImageView15"/>
+
+
+            <ImageView
+                android:id="@+id/learnImagingImageView16"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/iso2400"
+                android:layout_below="@id/learnImagingTextView21"
+                tools:ignore="MissingConstraints" />
+<!--shutter speed begins-->
+            <TextView
+                android:id="@+id/learnImagingTextView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:ignore="MissingConstraints"
+                android:layout_below="@id/learnImagingImageView16"/>
+
+            <TextView
+                android:id="@+id/learnImagingTextView38"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:ignore="MissingConstraints"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:layout_below="@id/learnImagingTextView8"/>
+
+
+            <ImageView
+                android:id="@+id/learnImagingImageView17"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ss1_30"
+                android:layout_below="@id/learnImagingTextView38"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/learnImagingTextView22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:ignore="MissingConstraints"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/learnImagingImageView17"/>
+
+
+            <ImageView
+                android:id="@+id/learnImagingImageView18"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ss1_50"
+                android:layout_below="@id/learnImagingTextView22"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/learnImagingTextView23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:ignore="MissingConstraints"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:layout_below="@id/learnImagingImageView18"/>
+
+
+            <ImageView
+                android:id="@+id/learnImagingImageView19"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ss1_80"
+                android:layout_below="@id/learnImagingTextView23"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/learnImagingTextView24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:ignore="MissingConstraints"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:layout_below="@id/learnImagingImageView19"/>
+
+
+            <ImageView
+                android:id="@+id/learnImagingImageView20"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ss1_125"
+                android:layout_below="@id/learnImagingTextView24"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/learnImagingTextView25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:ignore="MissingConstraints"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:layout_below="@id/learnImagingImageView20"/>
+
+
+            <ImageView
+                android:id="@+id/learnImagingImageView21"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ss1_200"
+                android:layout_below="@id/learnImagingTextView25"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/learnImagingTextView26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:ignore="MissingConstraints"
+                android:layout_below="@id/learnImagingImageView21"/>
+
+            <TextView
+                android:id="@+id/learnImagingTextView39"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                tools:ignore="MissingConstraints"
+                android:layout_below="@id/learnImagingTextView26"/>
+
+
+            <ImageView
+                android:id="@+id/learnImagingImageView22"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ss1_30iso_c"
+                android:layout_below="@id/learnImagingTextView39"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/learnImagingTextView27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:ignore="MissingConstraints"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:layout_below="@id/learnImagingImageView22"/>
+
+
+            <ImageView
+                android:id="@+id/learnImagingImageView23"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ss1_50iso_c"
+                android:layout_below="@id/learnImagingTextView27"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/learnImagingTextView28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:ignore="MissingConstraints"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:layout_below="@id/learnImagingImageView23"/>
+
+
+            <ImageView
+                android:id="@+id/learnImagingImageView24"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ss1_80iso_c"
+                android:layout_below="@id/learnImagingTextView28"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/learnImagingTextView29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:ignore="MissingConstraints"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:layout_below="@id/learnImagingImageView24"/>
+
+
+            <ImageView
+                android:id="@+id/learnImagingImageView25"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ss1_125iso_c"
+                android:layout_below="@id/learnImagingTextView29"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/learnImagingTextView30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:ignore="MissingConstraints"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:layout_below="@id/learnImagingImageView25"/>
+
+
+            <ImageView
+                android:id="@+id/learnImagingImageView26"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ss1_200iso_c"
+                android:layout_below="@id/learnImagingTextView30"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/learnImagingTextView31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:ignore="MissingConstraints"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:layout_below="@id/learnImagingImageView26"/>
+
+
+            <ImageView
+                android:id="@+id/learnImagingImageView27"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ss1_320iso_c"
+                android:layout_below="@id/learnImagingTextView31"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/learnImagingTextView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:ignore="MissingConstraints"
+                android:layout_below="@id/learnImagingImageView27"/>
+
+            <ImageView
+                android:id="@+id/learnImagingImageView28"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/res1080"
+                android:layout_below="@id/learnImagingTextView9"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/learnImagingTextView32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:ignore="MissingConstraints"
+                android:layout_below="@id/learnImagingImageView28"/>
+
+
+            <ImageView
+                android:id="@+id/learnImagingImageView29"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/res540"
+                android:layout_below="@id/learnImagingTextView32"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/learnImagingTextView33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:ignore="MissingConstraints"
+                android:layout_below="@id/learnImagingImageView29"/>
+
+
+            <ImageView
+                android:id="@+id/learnImagingImageView30"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/res270"
+                android:layout_below="@id/learnImagingTextView33"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/learnImagingTextView34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:ignore="MissingConstraints"
+                android:layout_below="@id/learnImagingImageView30"/>
+
+
+            <ImageView
+                android:id="@+id/learnImagingImageView31"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/res120"
+                android:layout_below="@id/learnImagingTextView34"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/learnImagingTextView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:ignore="MissingConstraints"
+                android:layout_below="@id/learnImagingImageView31"/>
+
+            <ImageView
+                android:id="@+id/learnImagingImageView37"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/focus_image"
+                android:layout_below="@id/learnImagingTextView10"
+                tools:ignore="MissingConstraints" />
+
+
+            <TextView
+                android:id="@+id/learnImagingTextView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:ignore="MissingConstraints"
+                android:drawableBottom="@drawable/focusex1"
+                android:layout_below="@id/learnImagingImageView37"/>
+
+            <TextView
+                android:id="@+id/learnImagingTextView35"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:ignore="MissingConstraints"
+                android:text="\nAn image slightly out of focus. Where the particle edges are blurred andnon-distinct."
+                android:drawableBottom="@drawable/focusex2"
+                android:layout_below="@id/learnImagingTextView11"/>
+
+            <TextView
+                android:id="@+id/learnImagingTextView36"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:ignore="MissingConstraints"
+                android:layout_centerHorizontal="true"
+                android:text="\nAn image in focus, with distinct particles and no blurring."
+                android:drawableBottom="@drawable/focusex3"
+                android:layout_below="@id/learnImagingTextView35"/>
+
+            <TextView
+                android:id="@+id/learnImagingTextView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:ignore="MissingConstraints"
+                android:drawableBottom="@drawable/aperture1"
+                android:layout_below="@id/learnImagingTextView36"/>
+
+            <TextView
+                android:id="@+id/learnImagingTextView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:ignore="MissingConstraints"
+                android:drawableBottom="@drawable/depth_of_field"
+                android:layout_below="@id/learnImagingTextView12"/>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/bottom_navigation"
+        app:itemBackground="@android:color/white"/>
+
+</RelativeLayout>

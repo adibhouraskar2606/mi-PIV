@@ -1,0 +1,4 @@
+#Wed Sep 30 01:26:47 MDT 2020
+base.0=C\:\\Users\\ADI\\Desktop\\study material\\Android studio\\PIV_Feb21_TextTransfer\\javaOpenCV\\build\\intermediates\\dex\\debug\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

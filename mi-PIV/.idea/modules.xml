@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="mi-PIV/app" />
+      <module fileurl="file://$PROJECT_DIR$/javaOpenCV/javaOpenCV.iml" filepath="$PROJECT_DIR$/javaOpenCV/javaOpenCV.iml" group="mi-PIV/javaOpenCV" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mi-PIV.iml" filepath="$PROJECT_DIR$/.idea/modules/mi-PIV.iml" group="mi-PIV" />
+      <module fileurl="file://$PROJECT_DIR$/openCVLibrary344/openCVLibrary344.iml" filepath="$PROJECT_DIR$/openCVLibrary344/openCVLibrary344.iml" group="mi-PIV/openCVLibrary344" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LaserSafety">
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="60dp"
+            tools:ignore="MissingConstraints">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/laserSafetyTextView0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#0F2439"
+                android:gravity="center"
+                android:text="Laser Safety"
+                android:textColor="#FFFFFF"
+                android:textSize="35sp" />
+
+            <TextView
+                android:id="@+id/laserSafetyTextView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:ignore="MissingConstraints"
+                android:drawableBottom="@drawable/lasersafety_coherent"
+                android:layout_below="@id/laserSafetyTextView0"/>
+
+            <TextView
+                android:id="@+id/laserSafetyTextView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:ignore="MissingConstraints"
+                android:drawableBottom="@drawable/lasersafety_expsetup"
+                android:layout_below="@id/laserSafetyTextView1"/>
+
+
+            <TextView
+                android:id="@+id/laserSafetyTextView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:ignore="MissingConstraints"
+                android:drawableBottom="@drawable/lasersafety_lens"
+                android:layout_below="@id/laserSafetyTextView2"/>
+
+            <TextView
+                android:id="@+id/laserSafetyTextView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:ignore="MissingConstraints"
+                android:drawableBottom="@drawable/lasersafety_cautions"
+                android:layout_below="@id/laserSafetyTextView3"/>
+
+
+            <TextView
+                android:id="@+id/laserSafetyTextView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:ignore="MissingConstraints"
+                android:drawableBottom="@drawable/lasersafety_classtable"
+                android:layout_below="@id/laserSafetyTextView4"/>
+
+            <TextView
+                android:id="@+id/laserSafetyTextView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:ignore="MissingConstraints"
+                android:drawableBottom="@drawable/lasersafety_donotlook"
+                android:layout_below="@id/laserSafetyTextView5"/>
+
+            <TextView
+                android:id="@+id/laserSafetyTextView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:ignore="MissingConstraints"
+                android:layout_below="@id/laserSafetyTextView6"/>
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
