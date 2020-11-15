@@ -26,13 +26,13 @@ public class Imaging6 extends LearnImagingDummy {
         t9.setJustificationMode(Layout.JUSTIFICATION_MODE_INTER_WORD);
         //image
         TextView t32 = (TextView)findViewById(R.id.learnImagingTextView32);
-        t32.setText("This is the same image with a resolution of540x540");
+        t32.setText("This is the same image with a resolution of 540x540:");
         //image
         TextView t33 = (TextView)findViewById(R.id.learnImagingTextView33);
-        t33.setText("This is the same image with a resolution of 270x270");
+        t33.setText("This is the same image with a resolution of 270x270:");
         //image
         TextView t34 = (TextView)findViewById(R.id.learnImagingTextView34);
-        t34.setText("This is the same image with a resolution of 120x120");
+        t34.setText("This is the same image with a resolution of 120x120:");
         //image
         TextView t10 = (TextView)findViewById(R.id.learnImagingTextView10);
         String html8 = "An interesting point to note is that the error in mI-PIV measurements is highly dependent on the resolution, as particles (and resultantly velocities) may only be “resolved” down to pixel size.";

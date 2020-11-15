@@ -57,7 +57,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 tools:ignore="MissingConstraints"
-                android:text="\nAn image slightly out of focus. Where the particle edges are blurred andnon-distinct."
+                android:text="\nAn image slightly out of focus. Where the particle edges are blurred and non-distinct."
                 android:drawableBottom="@drawable/focusex2"
                 android:layout_below="@id/learnImagingTextView11"/>
 
