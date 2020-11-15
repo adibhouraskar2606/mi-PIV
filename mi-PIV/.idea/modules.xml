@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="mi-PIV/app" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/javaOpenCV/javaOpenCV.iml" filepath="$PROJECT_DIR$/.idea/modules/javaOpenCV/javaOpenCV.iml" group="mi-PIV/javaOpenCV" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mi-PIV.iml" filepath="$PROJECT_DIR$/.idea/modules/mi-PIV.iml" group="mi-PIV" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mi-PIV.iml" filepath="$PROJECT_DIR$/.idea/modules/mi-PIV.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/mi-PIV.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/mi-PIV.app.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/javaOpenCV/mi-PIV.javaOpenCV.iml" filepath="$PROJECT_DIR$/.idea/modules/javaOpenCV/mi-PIV.javaOpenCV.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/openCVLibrary344/mi-PIV.openCVLibrary344.iml" filepath="$PROJECT_DIR$/.idea/modules/openCVLibrary344/mi-PIV.openCVLibrary344.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/openCVLibrary344/openCVLibrary344.iml" filepath="$PROJECT_DIR$/.idea/modules/openCVLibrary344/openCVLibrary344.iml" group="mi-PIV/openCVLibrary344" />
     </modules>
   </component>
 </project>
