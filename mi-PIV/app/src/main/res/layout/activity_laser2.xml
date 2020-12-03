@@ -51,24 +51,8 @@
             android:layout_below="@id/laserSafetyTextView3"/>
 
 
-        <FrameLayout
-            android:layout_width="350dp"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/laserSafetyTextView4">
-
-            <VideoView
-                android:id="@+id/videoView1"
-                android:background="#0000"
-                android:layout_width="match_parent"
-                android:layout_height="200dp" />
-
-        </FrameLayout>
-
-
-
     </RelativeLayout>
     </ScrollView>
-
     <android.support.design.widget.BottomNavigationView
         android:id="@+id/bottom_navigation"
         android:layout_width="match_parent"

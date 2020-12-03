@@ -1,15 +1,12 @@
 package com.onrpiv.gui;
 
-import android.net.Uri;
 import android.os.Build;
 import android.support.annotation.RequiresApi;
 import android.support.design.widget.BottomNavigationView;
 import android.os.Bundle;
 import android.text.Html;
 import android.text.Layout;
-import android.widget.MediaController;
 import android.widget.TextView;
-import android.widget.VideoView;
 
 public class Laser2 extends LaserSafetyDummy {
     private int headerTextSize = 25;
@@ -38,13 +35,6 @@ public class Laser2 extends LaserSafetyDummy {
         for(int i = 0; i<textViews.length; i++){
             textViews[i].setTextSize(paraTextSize);
         }
-        VideoView videoView = (VideoView)findViewById(R.id.videoView1);
-        String videoPath = "android.resource://" +getPackageName() + "/" + R.raw.laser_safety_video;
-        videoView.setVideoPath(videoPath);
-        MediaController mediaController = new MediaController(this);
-        videoView.setMediaController(mediaController);
-        mediaController.setAnchorView(videoView);
-        System.out.println("video completed");
         BottomNavigationView bottomNavigationView = (BottomNavigationView) findViewById(R.id.bottom_navigation);
         bottomNavigationView.setOnNavigationItemSelectedListener(navListener);
     }
