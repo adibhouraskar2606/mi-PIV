@@ -41,7 +41,7 @@
             android:layout_height="wrap_content"
             tools:ignore="MissingConstraints"
             android:drawableBottom="@drawable/lasersafety_lens"
-            android:layout_below="@id/laserSafetyTextView2"/
+            android:layout_below="@id/laserSafetyTextView2"/>
 
         <TextView
             android:id="@+id/laserSafetyTextView4"
